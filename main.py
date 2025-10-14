@@ -1,16 +1,22 @@
-# This is a sample Python script.
+import numpy as np
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
 
+class Neuron:
+    def __init__(self, weights, bias):
+        self.weights = weights
+        self.bias = bias
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    def feedforward(self, inputs):
+        # Weight inputs, add bias, then use the activation function
+        total =     np.dot(self.weights, inputs) + self.bias
+        return sigmoid(total)
 
+weights = np.array([0, 1]) # w1 = 0, w2 = 1
+bias = 4                   # b = 4
+n = Neuron(weights, bias)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+x = np.array([2, 3])       # x1 = 2, x2 = 3
+print(n.feedforward(x))    # 0.9990889488055994
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
