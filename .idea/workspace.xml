@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0a1e79f-8da3-43eb-8ac1-e2c1d90bf90b" name="Changes" comment="Implemented network training and demonstrated by predicting genders based on weight and height">
+    <list default="true" id="c0a1e79f-8da3-43eb-8ac1-e2c1d90bf90b" name="Changes" comment="renamed file">
+      <change afterPath="$PROJECT_DIR$/RNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RNNdataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,24 +17,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GeorgeAlde"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GeorgeAlde&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GeorgeAlde/NeuralNet.git",
-    "accountId": "c53346bf-a123-48a9-8d10-620242e44f90"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GeorgeAlde/NeuralNet.git&quot;,
+    &quot;accountId&quot;: &quot;c53346bf-a123-48a9-8d10-620242e44f90&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="344l8GpDzV0Uy2eH3NwzR49ekZO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python.RNN.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -99,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760487510447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="renamed file">
+      <option name="closed" value="true" />
+      <created>1760540804396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760540804396</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +136,7 @@
     <MESSAGE value="One neuron implemented" />
     <MESSAGE value="network of neurons created" />
     <MESSAGE value="Implemented network training and demonstrated by predicting genders based on weight and height" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented network training and demonstrated by predicting genders based on weight and height" />
+    <MESSAGE value="renamed file" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed file" />
   </component>
 </project>
